@@ -20,3 +20,6 @@ function scriptureGenerator() {
     return `${newScripture} 
                --- ${newChapter}`;
 }
+
+var str = scriptureGenerator();
+console.log(str);
